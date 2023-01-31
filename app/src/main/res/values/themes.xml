@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TeslaNeumorphism" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/neu_background</item>
+        <item name="colorPrimaryVariant">@color/neu_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_light</item>
+        <item name="colorOnSecondary">@color/text_gray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="fontFamily">@font/gilroy</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="neuImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">@dimen/_30sdp</item>
+    </style>
+
+    <style name="neuCardView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">@dimen/_20sdp</item>
+    </style>
+
+    <style name="neuFlatButton">
+        <item name="neumorph_shapeType">flat</item>
+        <item name="neumorph_shadowElevation">@dimen/_3sdp</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="neuPressedButton">
+        <item name="neumorph_shapeType">pressed</item>
+        <item name="neumorph_shadowElevation">@dimen/_3sdp</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="cornerRadius">@dimen/_16sdp</item>
+    </style>
+
+    <style name="textStyleWhite">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textStyleGray">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+</resources>
